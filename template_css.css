@@ -1,0 +1,71 @@
+html {overflow-y: scroll;} 
+body { font-size: 10px;font-family: "Lucida Grande", "Verdana", Arial, serif; color: #52A0B6; margin: 0 auto; padding: 0;background: #f3edd1 url(background.jpg) top center repeat-y;text-align:center;}
+html, body{height: 100%;min-height: 100%;}
+td {font-family: "Lucida Grande", "Verdana", Arial, serif;font-size: 11px;color: #000000;}
+ul {margin: 0;padding-left: 12px;list-style: disc;}
+li{line-height: 20px;
+padding-top: 0px;}
+a:link, a:visited {font-family: "Lucida Grande", "Verdana", Arial, serif;color: #456878;text-decoration: underline;}
+a:hover {text-decoration: none;color: #456878;}
+.bg_left {width: 50%;height: 100%;background: url(lefttable.jpg) no-repeat top right;}
+.bg_right {width: 50%;height: 100%;background: url(righttable.jpg) no-repeat top left;}
+#header {background: url(header.jpg) no-repeat;width: 814px;height: 260px;}
+.maintable {margin: 0 auto;width: 814px;text-align:left;min-height: 100%;height: 100%; voice-family: "\"}\""; voice-family: inherit;height: auto;position: relative;}
+html>body .maintable {height: auto;}
+#mainbody {width: 815px;min-width: 815px;text-align:left;margin-left: -1px;}
+#sitename {width: 814px;height: 260px;}
+#sitename p { text-align: left;font-family: "Lucida Grande", "Verdana", Times, serif;font-size: 24px;font-weight: bold;letter-spacing: 1px;white-space: nowrap;color: #FFF;margin: 0;padding: 220px 0 0 20px;}
+#menucenter {height: 30px;width: 814px;text-align: left;margin: 0 auto;background: url(menu_bg.jpg) no-repeat;margin: -30px 0 0 0;font-weight: bold;}
+#menucenter .menu_m {text-align: left;height: 30px;}
+#topnavi{position: relative;display: block;height: 30px;}
+#topnavi ul {float: left;margin: 0;padding: 0;list-style-type: none;width: auto;}
+#topnavi ul li {display: block;float: left;margin: 0;padding-left: 12px;}
+#topnavi ul li a{display: block;float: left;color: orange;font-weight: bold;text-decoration: none;padding: 6px 8px 0 0;height: 30px;font-size: 14px;font-family: "Lucida Grande", "Verdana", Arial, serif;}
+#topnavi ul li a:hover,#topnavi ul li a.current{display: block;text-decoration: underline;}
+#main {float: left;margin-left: 5px;width: 800px;margin-bottom: 3px;}
+#footer {margin-top: 20px;margin-left: -1px;padding-top: 5px;background: #f3edd1;width: 814px;height: 25px;text-align: center;border-top: 1px solid #c2ba94;position: absolute;bottom: 0px;}
+a.mainlevel:link, a.mainlevel:visited {display: block;font-size: 12px;text-align: left;padding: 4px 0px 2px 0px;height: 15px;text-decoration: none;font-family: "Lucida Grande", "Verdana", Arial, serif;color: #455575;margin: 2px;background-image: url(button.jpg);background-repeat: no-repeat ;}
+a.mainlevel:hover {color: #999;}
+table.contentpaneopen {width: 100%;margin: 0 5px 0 0;}
+table.contentpaneopen td.contentheading {color: #c2ba94;text-align: left;white-space: nowrap;font-family: "Lucida Grande", "Verdana", Arial, serif;font-size: 12px;font-weight: bold;border-bottom: 1px solid #c2ba94;padding: 25px 0 0 0;}
+.button {margin: 3px 0 3px 0;padding: 0 5px 2px 5px;border: 1px solid #c2ba94;background: #f3edd1;color: #456878;font-family: "Lucida Grande", "Verdana", Arial, serif;text-align: center;font-size: 11px;}
+.inputbox {font-size: 10px;font-family: "Lucida Grande", "Verdana", Arial, serif;border: 1px solid #c2ba94;background: #f3edd1;color: #000;}
+input[type="checkbox"] { 
+border-style: none;}
+.copyright {color: #c2ba94;font-family: "Lucida Grande", "Verdana", Arial, serif;font-size: 10px;padding: 10px 0 0 0;margin: 0 auto;text-align:center;}
+.back_button {float: left;text-align: center;font-size: 11px;font-weight: bold;width: auto;padding: 0px 10px;line-height: 20px;margin: 10px 0 50px 0;}
+.componentheading {color: #c2ba94;padding: 33px 0 5px 0;text-align: left;white-space: nowrap;font-family: "Lucida Grande", "Verdana", Arial, serif;font-size: 12px;font-weight: bold;}
+.wrapper {width: 620px;height: 550px;}
+table.moduletable {border-spacing: 0px;border-collapse: collapse;}
+table.moduletable td {padding-left: 7px;font-size: 11px;}
+a.sgfooter:link, a.sgfooter:visited {color: #c2ba94;font-size: 10px;font-family: "Lucida Grande", "Verdana", Arial, serif;text-decoration: none;}
+a.sgfooter:hover {color: #c2ba94;font-family: "Lucida Grande", "Verdana", Arial, serif;text-decoration: none;}
+.sgf {font-size: 10px;font-family: "Lucida Grande", "Verdana", Arial, serif;color: #c2ba94;text-decoration: none;}
+.sgf1 {font-size: 10px;font-family: "Lucida Grande", "Verdana", Arial, serif;color: #c2ba94;text-align: left;}
+a.sglink:link, a.sglink:visited {color: #c2ba94;font-size: 10px;font-family: "Lucida Grande", "Verdana", Arial, serif;text-decoration: none;}
+a.sglink:hover {text-decoration: none;}
+a img {border: 0;}
+.pathway {border: 0;color: #333333;font-family: "Lucida Grande", "Verdana", Arial, serif;font-weight:bold;padding:2px 4px 2px 10px;}
+a.pathway:link, a.pathway:visited {color: #333333;font-size: 11px;line-height: 18px;font-family: "Lucida Grande", "Verdana", Arial, serif;font-weight: bold;padding: 2px 4px 2px 4px;}
+a.pathway:hover {color: #fefefe;font-family: "Lucida Grande", "Verdana", Arial, serif;font-weight:bold;background-color:#2a519e;}
+.pagenav {font-size:12px;font-weight:normal;}
+#topnavigation a.topnavigation:link, a.topnavigation:visited {font-family: "Lucida Grande", "Verdana", Arial, serif;font-size: 10px;font-weight: bold;letter-spacing : 1px;color: #fefefe;padding-right:5px;text-decoration:none;}
+#topnavigation a.topnavigation:hover {color: #b9f15d;border-bottom: none;text-decoration:none;}
+#topnavigation a.topnavigation:active {color: #51c0f5;text-decoration:none;}
+a.toclink:link, a.toclink:visited {line-height:normal;font-size:11px;font-family: "Lucida Grande", "Verdana", Arial, serif;color: #000000;text-decoration: underline;}
+a.toclink:hover {text-decoration: none;}
+table.contenttoc {padding: 2px;margin-left: 2px;margin-bottom: 2px;}
+table.contenttoc th {background: #99ca37;color: #47484a;text-align: left;padding-top: 2px;padding-left: 4px;height: 21px;font-weight: bold;font-size: 11px;text-transform: uppercase;}
+.sectiontableheader {background: #f3edd1;height: 20px;padding-right:3px;font-weight :bold;}
+table.contentpane td.contentdescription {font-size:12px;line-height:18px;}
+table.contentpane td.componentheading {background:#abd851;height: 20px;padding-left:3px;color: #fefefe;text-align: left;padding-bottom:3px;white-space: nowrap;font-family: "Lucida Grande", "Verdana", Arial, serif;font-size: 14px;font-weight: bold;}
+table.contentpane td {padding-top:1px;padding-bottom:2px;font-size:12px;}
+table.contentpaneopen td
+{line-height:20px;font-size:12px;}
+a.sublevel:link, a.sublevel:visited {font-size: 10px;color: #000000;text-align: left;text-decoration: underline;vertical-align:middle;}
+a.sublevel:hover {text-decoration: none;color: #333;}
+.height {height: 100%;}
+.small {font-size: 11px;color: #999;}
+.createdate {font-size: 11px;color: #999;}
+.rightnav {float: right;padding-left: 15px;padding-bottom: 15px;margin-left: 25px;margin-bottom: 15px;width: 250px;border-left: orange 1px dashed;border-bottom: orange 1px dashed;}
+.rightnav input[type="text"] {width: 200px;}

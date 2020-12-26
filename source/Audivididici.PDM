@@ -1,0 +1,230 @@
+[Root]
+Most Recent Package=Audivididici Setup
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=G:\Audivididici\Package
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\RESEDIT.DLL=
+C:\WINDOWS\system32\unzip32.dll=
+G:\Audivididici\zip32.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\Mscomct2.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSCHRT20.OCX=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\RESEDIT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\Mscomct2.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+G:\Audivididici\Audivididici.exe=Yes
+G:\Audivididici\zip32.dll=Yes
+C:\WINDOWS\system32\unzip32.dll=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Audivididici\Audivididici.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\RESEDIT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\Audivididici\Audivididici.exe=$(AppPath)
+G:\Audivididici\zip32.dll=$(WinSysPath)
+C:\WINDOWS\system32\unzip32.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\Audivididici\Audivididici.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=Audivididici
+
+[Package|Dep File 1|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|Dep File 1|$(Programs)]
+Icon1=Audivididici.exe
+Title1=Audivididici
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Audivididici.CAB
+DepCabRun=Audivididici.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=G:\Audivididici\Package
+ProjectFolder=G:\Audivididici
+ServerSideCab=
+File1=G:\Audivididici\Package\Audivididici.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Audivididici Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\Audivididici\Package
+
+[Package|Audivididici Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Audivididici Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Audivididici Setup|Files Found]
+
+[Package|Audivididici Setup|Files Released]
+
+[Package|Audivididici Setup|Missing Dependency Information]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\RESEDIT.DLL=
+C:\WINDOWS\system32\unzip32.dll=
+G:\Audivididici\zip32.dll=
+
+[Package|Audivididici Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\Mscomct2.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSCHRT20.OCX=
+
+[Package|Audivididici Setup|Files Added]
+
+[Package|Audivididici Setup|Files Removed]
+
+[Package|Audivididici Setup|Files In Project]
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\RESEDIT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\Audivididici\Audivididici.exe=Yes
+G:\Audivididici\zip32.dll=Yes
+C:\WINDOWS\system32\unzip32.dll=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+
+[Package|Audivididici Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Audivididici Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Audivididici Setup|Install Locations]
+C:\Audivididici\Audivididici.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\RESEDIT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\Audivididici\Audivididici.exe=$(AppPath)
+G:\Audivididici\zip32.dll=$(WinSysPath)
+C:\WINDOWS\system32\unzip32.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+
+[Package|Audivididici Setup|Configure Shared Files]
+Applicable=Yes
+C:\Audivididici\Audivididici.exe=No
+G:\Audivididici\Audivididici.exe=No
+
+[Package|Audivididici Setup|Distribution]
+Type=single
+Size=
+Title=Audivididici
+
+[Package|Audivididici Setup|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|Audivididici Setup|$(Programs)]
+Icon1=Audivididici.exe
+Title1=Audivididici
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Audivididici Setup|Package]
+PackageFolder=G:\Audivididici\Package
+ProjectFolder=G:\Audivididici
+ServerSideCab=
+File1=G:\Audivididici\Package\setup.exe
+File2=G:\Audivididici\Package\Setup.Lst
+File3=G:\Audivididici\Package\Audivididici.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

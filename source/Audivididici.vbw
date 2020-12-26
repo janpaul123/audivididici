@@ -1,0 +1,15 @@
+MainFunctions = 132, 174, 692, 630, C
+frmSplash = 44, 58, 604, 514, C, 22, 29, 582, 485, C
+frmMain = 117, 53, 677, 509, Z, 54, 37, 614, 493, C
+frmWords = 110, 145, 670, 601, C, 110, 145, 670, 601, C
+frmEdit = 0, 0, 572, 466, C, 113, 140, 685, 606, C
+RTFUniversalUnicode = 66, 75, 609, 541, C, 176, 200, 719, 666, C
+frmNotification = 88, 100, 631, 566, C, 44, 50, 587, 516, C
+frmResults = 176, 200, 719, 666, C, 176, 200, 719, 666, C
+VBZipBas = 88, 100, 629, 566, C
+VBUnzBas = 0, 0, 541, 466, C
+Conversion = 44, 50, 574, 516, C
+modClip = 0, 0, 0, 0, C
+ctlClipboard = 0, 0, 0, 0, C, 44, 50, 574, 516, C
+frmExport = 22, 25, 552, 491, C, 0, 0, 530, 462, C
+frmExample = 22, 25, 552, 491, C, 0, 0, 530, 466, C

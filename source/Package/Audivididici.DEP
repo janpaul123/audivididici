@@ -1,0 +1,43 @@
+[Version]
+Version=0.3.0.0
+
+[Audivididici.exe <0009>]
+Dest=$(AppPath)
+Date=13-8-2007
+Time=17:17
+Version=0.3.0.0
+CABFilename=Audivididici.CAB
+CABINFFile=Audivididici.INF
+Uses1=MSVBVM60.DLL
+Uses2=oleaut32.dll
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses7=zip32.dll
+Uses8=unzip32.dll
+Uses9=RESEDIT.DLL
+Uses10=MSCOMCTL.OCX
+Uses11=MSCOMCT2.OCX
+Uses12=COMDLG32.OCX
+Uses13=RICHTX32.OCX
+Uses14=MCI32.OCX
+Uses15=MSCHRT20.OCX
+
+[zip32.dll <0009>]
+Dest=$(WinSysPath)
+Date=1-7-2006
+Time=03:25
+Version=1.1.0.0
+
+[unzip32.dll <0009>]
+Dest=$(WinSysPath)
+Date=28-2-2005
+Time=23:52
+Version=5.5.2.0
+
+[RESEDIT.DLL <0009>]
+Dest=$(WinSysPath)
+Date=18-6-1998
+Time=00:00
+Version=6.0.0.8169
